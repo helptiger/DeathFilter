@@ -1,0 +1,9 @@
+main: ${main.class}
+version: ${project.version}
+author: maciekmm
+name: ${project.name}
+commands:
+  dfreload:
+    description: Reloads plugin
+    usage: /<command> - reloads plugin
+    permission: deathfilter.reload
